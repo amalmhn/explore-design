@@ -1,0 +1,43 @@
+.headerDiv{
+    position: absolute;
+}
+.banner-jumbo{
+    padding-top: 250px;
+    background-image: url("/src/Static/pexels-alexandr-podvalny-1004584.jpg");
+    /* background-position: center; */
+    background-size: 1300px 500px;
+    border-radius: 0 0 10px 10px;
+}
+.banner-btn{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.words-cls{
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+
+h1.words-cls{
+    font-size: 50px;
+}
+
+p.words-cls{
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'MonteCarlo', cursive;
+    font-family: 'Style Script', cursive;
+}
+
+@media(max-width:767px){
+    .banner-jumbo{
+        background-size: 600px 570px;
+    }
+}
+
+@media(max-width:350px){
+    .banner-jumbo{
+        width: 350px;
+    }
+}

@@ -1,0 +1,152 @@
+.cardsInfo{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.cardsInfo1{
+    text-align: center;
+    background-image: url("/src/Static/pexels-pixabay-163084.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+.cardsInfo2{
+    text-align: center;
+    background-image: url("/src/Static/pexels-travelblog-7058459.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+.cardsInfo3{
+    text-align: center;
+    background-image: url("/src/Static/pexels-anna-shvets-4167544.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+.cardsInfo4{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url("/src/Static/pexels-ekrulila-3837487.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+.cardsInfo5{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url("/src/Static/pexels-kritesh-kaushik-2413613.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+.cardsInfo6{
+    padding-top: 100px;
+    text-align: center;
+    background-image: url("/src/Static/pexels-renjith-rc-6150642.jpg");
+    background-size: 290px 320px;
+    height: 320px;
+    color: #fff;
+    text-shadow: 1px 1px #000;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 1px  #000;
+}
+
+h2{
+    color: #c1191f;
+    text-shadow: 1px 1px #fff;
+}
+.cards-btns{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.marketing-btns{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+}
+.marketing-jumbo{
+    text-align: center;
+    background-image: url("/src/Static/pexels-chavdar-lungov-3996433.jpg");
+    background-size: 1290px 350px;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px #000;
+}
+.highlight-span{
+    color: #c1191f;
+    text-shadow: 0.5px 0.5px #000;
+    font-weight: bold;
+}
+.details-div{
+    text-align: center;
+    margin-top: 25px;
+}
+.travel-blog{
+    margin-top: 25px;
+}
+.travelBlog-h1{
+    text-align: center;
+}
+.travelBlog1{
+    background-color: red;
+    color: #c1191f;
+    text-shadow: 0.5px 0.5px #000;
+    background-image: url("/src/Static/pexels-mrudula-thakur-784879.jpg");
+    background-size: 570px 250px;
+    height: 250px;
+}
+.travelBlog2{
+    background-color: red;
+    color: #c1191f;
+    text-shadow: 0.5px 0.5px #000;
+    background-image: url("/src/Static/pexels-godson-bright-962464.jpg");
+    background-size: 570px 250px;
+    height: 250px;
+}
+.travelBlog3{
+    padding-top: 30px;
+    background-color: red;
+    color: #c1191f;
+    text-shadow: 0.5px 0.5px #000;
+    background-image: url("/src/Static/pexels-tyler-shores-4147760.jpg");
+    background-size: 1140px 250px;
+    height: 250px;
+}
+
+@media(max-width:767px){
+    .marketing-jumbo{
+        background-size: 1290px 410px;
+    }
+}
+
+@media(max-width:350px){
+    .cardsInfo{
+        width: 350px;
+    }
+    .marketing-jumbo{
+        width: 350px;
+    }
+    .details-div{
+        width:350px;
+    }
+}

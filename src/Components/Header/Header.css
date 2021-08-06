@@ -1,0 +1,21 @@
+.header-span{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+}
+.explore-span{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px #000;
+    font-family: 'Style Script', cursive;
+    font-size: 40px;
+}
+.flight-logo{
+    color: #c1191f;
+}
+
+@media(max-width:767px){
+    .explore-span{
+        font-size: 30px;
+    }   
+}
