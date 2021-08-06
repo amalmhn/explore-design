@@ -115,6 +115,10 @@ h2{
     background-size: 570px 250px;
     height: 250px;
 }
+.travelBlog1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 .travelBlog2{
     background-color: red;
     color: #c1191f;
@@ -123,6 +127,10 @@ h2{
     background-size: 570px 250px;
     height: 250px;
 }
+.travelBlog2:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 .travelBlog3{
     padding-top: 30px;
     background-color: red;
@@ -132,10 +140,17 @@ h2{
     background-size: 1140px 250px;
     height: 250px;
 }
+.travelBlog3:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+  }
 
 @media(max-width:767px){
     .marketing-jumbo{
         background-size: 1290px 410px;
+    }
+    .travelBlog3{
+        background-position: center;
     }
 }
 
@@ -147,6 +162,9 @@ h2{
         width: 350px;
     }
     .details-div{
+        width:350px;
+    }
+    .travel-blog{
         width:350px;
     }
 }
