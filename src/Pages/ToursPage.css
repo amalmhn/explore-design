@@ -1,0 +1,8 @@
+.toursPage{
+    background-color: #d9d9d9;
+}
+
+@media(max-width:350px){
+    .toursPage{
+        width:350px    }
+}

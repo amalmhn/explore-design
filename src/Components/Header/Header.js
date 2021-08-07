@@ -1,5 +1,6 @@
 import React from 'react'
 import { Nav, Navbar } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 import './Header.css'
 
 function Header() {
@@ -9,8 +10,16 @@ function Header() {
                 <Navbar.Brand href="#home"><span className="explore-span">Explore
                 <span className="flight-logo">&#9992;</span></span></Navbar.Brand>
                 <Nav className="mr-auto header-links">
-                    <Nav.Link href="/"><span className="header-span">Home</span></Nav.Link>
-                    <Nav.Link href="/about"><span className="header-span">About</span></Nav.Link>
+                    <Nav>
+                        <Link to="/" className="headerLink">
+                            <span className="header-span">Home</span>
+                        </Link>
+                    </Nav>
+                    <Nav>
+                        <Link to="/tours" className="headerLink">
+                            <span className="header-span">About</span>
+                        </Link>
+                    </Nav>
                     <Nav.Link href="/contact"><span className="header-span">Contact</span></Nav.Link>
                 </Nav>
             </Navbar>

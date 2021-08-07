@@ -1,0 +1,62 @@
+.toursDiv-h1{
+    text-align: center;
+}
+h3{
+    color: #c1191f;
+    text-shadow: 1px 1px #fff;
+}
+.price-span{
+    color: #c1191f;
+    text-shadow: 1px 1px #fff;
+}
+.toursDiv-btns{
+    text-align: center;
+}
+.bookNow-btn{
+    margin-left: 25px;
+}
+.both-btns{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+    width: 150px;
+}
+.tourDetails-jumbo{
+    background-image: url("../../Static/italy-tour.jpg");
+    color: #fff;
+    text-shadow: 1px 1px #000;
+}
+.tourDetails-jumbo2{
+    background-image: url("../../Static/pexels-sanket-barik-7846659.jpg");
+    background-size: 1200px 400px;
+    color: #fff;
+    text-shadow: 1px 1px #000;  
+}
+.tourDetails-jumbo3{
+    background-image: url("../../Static/wayanad.jpg");
+    background-position: center;
+    background-size: 1200px 600px;
+    color: #fff;
+    text-shadow: 1px 1px #000;  
+}
+
+@media(max-width:767px){
+    .bookNow-btn{
+        margin-left: 10px;
+    }   
+}
+@media(max-width:350px){
+    .tours-div{
+        width: 350px;
+    }
+}
+@media(max-width:370px){
+    .tours-div{
+        width: 350px;
+    }
+    .bookNow-btn{
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+}
