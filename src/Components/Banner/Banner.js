@@ -1,9 +1,13 @@
 import React from 'react'
 import { Button, Jumbotron } from 'react-bootstrap'
+import { useHistory } from 'react-router-dom'
 import Header from '../Header/Header'
 import './Banner.css'
 
 function Banner() {
+
+    const history = useHistory()
+
     return (
         <div className="banner-div">
             <div className="headerDiv">
@@ -16,7 +20,7 @@ function Banner() {
                         "The journey of a thousand miles begins with a single step"
                     </p>
                     <p>
-                        <Button variant="danger" className="banner-btn">View Tours</Button>
+                        <Button onClick={()=>{history.push("/tours")}} variant="danger" className="banner-btn">View Tours</Button>
                     </p>
                 </Jumbotron>
             </div>

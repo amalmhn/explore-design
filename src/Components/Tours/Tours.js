@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Container, Jumbotron } from 'react-bootstrap'
+import { useHistory } from 'react-router-dom'
 import './Tours.css'
 
 function Tours() {
+
+    const history = useHistory()
+
     return (
         <div className="tours-div">
             <h1 className="toursDiv-h1">Tours packages available now</h1>
@@ -14,9 +18,9 @@ function Tours() {
                     <p>
                         Your dream of visiting the shining cities of Italy with budget travel in mind is easy to reach. With seven days to see the sights from Rome to Venice—including Pisa, Verona, and Florence—your guided Italy tour is waiting.
                     </p>
-                    <p> <strong>Starting at: <span className="price-span">₹14,295</span></strong></p>
+                    <p> <strong>Starting at: <span className="price-span">₹75,295</span></strong></p>
                     <div className="btns-div">
-                    <Button variant="danger both-btns">Get Details</Button>
+                    <Button onClick={()=>{history.push("/itinerary")}} variant="danger both-btns">Get Details</Button>
                     <Button className="bookNow-btn both-btns" variant="danger">Book Now</Button>
                     </div>
                 </Jumbotron>

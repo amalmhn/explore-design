@@ -1,0 +1,18 @@
+.contact-div{
+    text-align: center;
+}
+.contactTable{
+    width: 400px;
+}
+.contactDetails-table{
+    background-color: #fff;
+}
+.contact-para{
+    text-align: left;
+}
+
+@media(max-width:767px){
+    .contactTable{
+        width: 125px;
+    }
+}

@@ -1,0 +1,42 @@
+.italy-h1{
+    text-align: center;
+}
+.italy-jumbo{
+    background-image: url(../../Static/pexels-olivier-darny-4015473.jpg);
+    background-size: 1350px 500px;
+    background-position: center;
+    height: 400px;
+    border-radius: 10px;
+}
+.itineraryDetails-container{
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.tour-details{
+    border-bottom: 1px solid grey;
+}
+.meals{
+    margin-top: 20px;
+    border-bottom: 1px solid grey;
+}
+.itinerary{
+    margin-top: 20px;
+}
+.itinerary-btn{
+    text-align: center;
+}
+.itineraryBtn{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+}
+h5{
+    color: #c1191f;
+}
+.day-span{
+    color: #c1191f;
+    font-weight: bold;
+}
