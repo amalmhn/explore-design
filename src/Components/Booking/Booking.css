@@ -1,51 +1,30 @@
-.form-inline {  
-    display: flex;
-    flex-flow: row wrap;
-  }
-
-  .form-inline label {
-    margin: 5px 10px 5px 0;
-  }
-
-  .form-inline input {
-    vertical-align: middle;
-    margin: 5px 10px 5px 0;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid grey;
-    border-radius: 50px;
-  }
-
-  .button-section {
-    margin: 3%;
-  }
-.button-add{
-    background-color: #c1191f;
-    border-color: #c1191f;
-    border-radius: 35px;
-    font-weight: bold;
-    margin-left: 145px;
-}
-.button-remove{
-    background-color: #c1191f;
-    border-color: #c1191f;
-    border-radius: 35px;
-    font-weight: bold;
-}
 .booking-h1{
-    text-align: center;
+  text-align: center;
+}
+.bookingForm{
+  margin-top: 25px;
+}
+.booking-col{
+margin: 10px;
+/* text-align: center; */
+}
+.booking-input{
+  border-color: grey;
+  border-radius: 20px;
+}
+.addBtn-div{
+  text-align: center;
+}
+.form-btns{
+  background-color: #c1191f;
+  border-color: #c1191f;
+  border-radius: 35px;
+  font-weight: bold;
+}
+.terms-conditions{
+  margin-top: 25px;
+}
+.checkBtns-div{
+  text-align: center;
 }
 
-  .button:hover {
-    background-color: royalblue;
-  }
-
-@media(max-width:767px){
-    .form-inline {  
-        display: flex;
-        justify-content: center;
-      }
-      .button-add{
-        margin-top: 10px;
-    }
-}

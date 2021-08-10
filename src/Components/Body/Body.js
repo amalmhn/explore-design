@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Card, Col, Container, Jumbotron, Row } from 'react-bootstrap'
+import { useHistory } from 'react-router-dom'
 import './Body.css'
 
 function Body() {
+
+    const history = useHistory()
+
     return (
         <div className="body-div">
             <div className="cards-info">
@@ -52,7 +56,9 @@ function Body() {
                         South Wales incorporates the Welsh capital of Cardiff, along with some of the country's loveliest scenery. Little surprise, then, that this beautiful region consistently <span className="highlight-span">ranks as one of the top places to visit in the UK.</span>
                     </p>
                     <p>
-                        <Button className="marketing-btns" variant="danger">Book Now</Button>
+                        <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="marketing-btns" variant="danger">Book Now</Button>
                     </p>
                 </Jumbotron>
             </div>
@@ -63,7 +69,9 @@ function Body() {
                             <Card className="cardsInfo4" style={{ width: '18rem' }}>
                                 <Card.Body>
                                     <Card.Title><h2>World Tours</h2></Card.Title>
-                                    <Button className="cards-btns" variant="danger">Book Now</Button>
+                                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="cards-btns" variant="danger">Book Now</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -71,7 +79,9 @@ function Body() {
                             <Card className="cardsInfo5" style={{ width: '18rem' }}>
                                 <Card.Body>
                                     <Card.Title><h2>India Tours</h2></Card.Title>
-                                    <Button className="cards-btns" variant="danger">Book Now</Button>
+                                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="cards-btns" variant="danger">Book Now</Button>
                                 </Card.Body>
                             </Card>
                         </Col>
@@ -79,7 +89,9 @@ function Body() {
                             <Card className="cardsInfo6" style={{ width: '18rem' }}>
                                 <Card.Body>
                                     <Card.Title><h2>Kerala Tours</h2></Card.Title>
-                                    <Button className="cards-btns" variant="danger">Book Now</Button>
+                                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="cards-btns" variant="danger">Book Now</Button>
                                 </Card.Body>
                             </Card>
                         </Col>

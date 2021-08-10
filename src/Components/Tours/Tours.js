@@ -21,7 +21,9 @@ function Tours() {
                     <p> <strong>Starting at: <span className="price-span">₹75,295</span></strong></p>
                     <div className="btns-div">
                     <Button onClick={()=>{history.push("/itinerary")}} variant="danger both-btns">Get Details</Button>
-                    <Button className="bookNow-btn both-btns" variant="danger">Book Now</Button>
+                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="bookNow-btn both-btns" variant="danger">Book Now</Button>
                     </div>
                 </Jumbotron>
                 <Jumbotron className="tourDetails-jumbo2">
@@ -33,8 +35,10 @@ function Tours() {
                     </p>
                     <p> <strong>Starting at: <span className="price-span">₹20,295</span></strong></p>
                     <div className="btns-div">
-                    <Button variant="danger both-btns">Get Details</Button>
-                    <Button className="bookNow-btn both-btns" variant="danger">Book Now</Button>
+                    <Button onClick={()=>{history.push("/itinerary")}} variant="danger both-btns">Get Details</Button>
+                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="bookNow-btn both-btns" variant="danger">Book Now</Button>
                     </div>
                 </Jumbotron>
                 <Jumbotron className="tourDetails-jumbo3">
@@ -46,8 +50,10 @@ function Tours() {
                     </p>
                     <p> <strong>Starting at: <span className="price-span">₹11,295</span></strong></p>
                     <div className="btns-div">
-                    <Button variant="danger both-btns">Get Details</Button>
-                    <Button className="bookNow-btn both-btns" variant="danger">Book Now</Button>
+                    <Button onClick={()=>{history.push("/itinerary")}} variant="danger both-btns">Get Details</Button>
+                    <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="bookNow-btn both-btns" variant="danger">Book Now</Button>
                     </div>
                 </Jumbotron>
             </Container>

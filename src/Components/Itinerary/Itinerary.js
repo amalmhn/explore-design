@@ -1,8 +1,12 @@
 import React from 'react'
 import { Button, Container, Jumbotron } from 'react-bootstrap'
+import { useHistory } from 'react-router-dom'
 import './Itinerary.css'
 
 function Itinerary() {
+
+    const history = useHistory()
+
     return (
         <div className="itinerary-div">
             <h1 className="italy-h1">Italy's Best</h1>
@@ -46,7 +50,9 @@ function Itinerary() {
                         <p>Venice is more like a romantic film set than a real-life city, with its crisscrossing canals, gondolas and water buses, arched bridges, palaces, and piazzas. The included orientation starts with a boat ride to St. Mark’s Square, and is followed by time at leisure and a chance to watch Venetian glassblowers fashion their delicate objects as they did centuries ago. Don’t miss out on the optional gondola trip, gliding along the picturesque canals with a local troubadour to serenade you. </p>
                     </div>
                     <div className="itinerary-btn">
-                        <Button className="itineraryBtn" variant="danger">Book Now</Button>
+                        <Button onClick={()=>{
+                            history.push("/booking")
+                        }} className="itineraryBtn" variant="danger">Book Now</Button>
                     </div>
                 </Container>
             </div>

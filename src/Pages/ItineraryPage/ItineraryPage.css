@@ -1,3 +1,8 @@
 .itineraryPage-div{
     background-color: #d9d9d9;
 }
+
+@media(max-width:350px){
+    .itineraryPage-div{
+        width:350px    }
+}

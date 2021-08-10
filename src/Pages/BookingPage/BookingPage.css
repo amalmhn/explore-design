@@ -1,0 +1,8 @@
+.booking-page{
+    background-color: #d9d9d9;
+}
+
+@media(max-width:350px){
+    .booking-page{
+        width:350px    }
+}
