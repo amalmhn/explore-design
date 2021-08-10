@@ -5,10 +5,10 @@ import './Header.css'
 
 function Header() {
 
-    const [show, setShow] = useState(false);
+    // const [show, setShow] = useState(false);
 
-    const handleClose = () => setShow(false);
-    const handleShow = () => setShow(true);
+    // const handleClose = () => setShow(false);
+    // const handleShow = () => setShow(true);
 
     return (
         <div className="header-div">
@@ -22,9 +22,9 @@ function Header() {
                         </Link>
                     </Nav>
                     <Nav>
-                        <Link className="headerLink">
+                        {/* <Link className="headerLink">
                             <span onClick={handleShow} className="header-span">About</span>
-                        </Link>
+                        </Link> */}
                     </Nav>
                     <Nav>
                         <Link to="/contact" className="headerLink">
@@ -33,7 +33,7 @@ function Header() {
                     </Nav>
                 </Nav>
             </Navbar>
-            <div className="header-modal">
+            {/* <div className="header-modal">
                 <Modal show={show} onHide={handleClose}>
                     <Modal.Header closeButton>
                         <Modal.Title> <h2>About</h2> </Modal.Title>
@@ -50,7 +50,7 @@ function Header() {
                         </Button>
                     </Modal.Footer>
                 </Modal>
-            </div>
+            </div> */}
         </div>
     )
 }
