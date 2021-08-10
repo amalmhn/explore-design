@@ -20,6 +20,12 @@
 .header-links{
     margin: 10px;
 }
+.modal-btn{
+    background-color: #c1191f;
+    border-color: #c1191f;
+    border-radius: 35px;
+    font-weight: bold;
+}
 
 @media(max-width:767px){
     .explore-span{
