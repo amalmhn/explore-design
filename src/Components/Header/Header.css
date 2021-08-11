@@ -32,3 +32,7 @@
         font-size: 30px;
     }   
 }
+@media(max-width:350px){
+    .navbar-div{
+        width: 330px}
+}

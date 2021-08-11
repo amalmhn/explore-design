@@ -1,12 +1,12 @@
 .headerDiv{
     position: absolute;
+    width: 96%;
 }
 .banner-jumbo{
     padding-top: 250px;
     background-image: url("/src/Static/pexels-alexandr-podvalny-1004584.jpg");
-    /* background-position: center; */
     background-size: 1300px 500px;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0px;
 }
 .banner-btn{
     background-color: #c1191f;

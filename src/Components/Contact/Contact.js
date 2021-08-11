@@ -9,6 +9,7 @@ function Contact() {
             <div className="contact-table">
                 <Container>
                     <Table className="contactDetails-table" striped bordered hover>
+                        <tbody>
                         <tr>
                             <td className="contactTable"><strong>Name :</strong></td>
                             <td>Explore Tourism & Travel</td>
@@ -21,12 +22,14 @@ function Contact() {
                             <td className="contactTable"><strong>Email :</strong></td>
                             <td>india@explore.com</td>
                         </tr>
+                        </tbody>
                     </Table>
                     <p className="contact-para">
                     If you would like to make a reservation, contact the tour operator
                     given below,
                     </p>
                     <Table className="contactDetails-table" striped bordered hover>
+                        <tbody>
                         <tr>
                             <td className="contactTable"><strong>Name :</strong></td>
                             <td>Explore Tourism & Travel Booking</td>
@@ -43,6 +46,7 @@ function Contact() {
                             <td className="contactTable"><strong>Email :</strong></td>
                             <td>booking@explore.com</td>
                         </tr>
+                        </tbody>
                     </Table>
                 </Container>
             </div>

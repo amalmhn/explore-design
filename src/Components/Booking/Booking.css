@@ -9,8 +9,9 @@ margin: 10px;
 /* text-align: center; */
 }
 .booking-input{
-  border-color: grey;
+  border: 1px solid grey;
   border-radius: 20px;
+  width: 100%;
 }
 .addBtn-div{
   text-align: center;

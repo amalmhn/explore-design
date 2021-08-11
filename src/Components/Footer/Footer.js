@@ -28,10 +28,9 @@ function Footer() {
                     <Col sm>
                     <div className="footer-texts">
                         <h4>SOCIAL MEDIA</h4>
-                        <p><i class="fa fa-facebook-square"></i></p>
-                        <p><i class="fa fa-youtube"></i></p>
-                        <p><i class="fa fa-instagram"></i></p>
-                        <p><i class="fa fa-pinterest-square"></i></p>
+                        <p><i className="fa fa-facebook-square"></i></p>
+                        <p><i className="fa fa-instagram"></i></p>
+                        <p><i className="fa fa-pinterest-square"></i></p>
                     </div>
                     </Col>
                 </Row>

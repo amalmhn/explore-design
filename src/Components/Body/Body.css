@@ -88,7 +88,7 @@ h2{
     text-align: center;
     background-image: url("/src/Static/pexels-chavdar-lungov-3996433.jpg");
     background-size: 1290px 350px;
-    border-radius: 10px;
+    border-radius: 0px;
     color: white;
     text-shadow: 1px 1px #000;
 }
@@ -118,6 +118,8 @@ h2{
 .travelBlog1:hover{
     cursor: pointer;
     transform: scale(1.05);
+    position: relative;
+    z-index: 1000;
   }
 .travelBlog2{
     background-color: red;
@@ -130,6 +132,8 @@ h2{
 .travelBlog2:hover{
     cursor: pointer;
     transform: scale(1.05);
+    position: relative;
+    z-index: 1000;
   }
 .travelBlog3{
     padding-top: 30px;
@@ -143,6 +147,8 @@ h2{
 .travelBlog3:hover{
     cursor: pointer;
     transform: scale(1.05);
+    position: relative;
+    z-index: 1000;
   }
 
 @media(max-width:767px){
